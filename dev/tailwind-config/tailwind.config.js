@@ -1,13 +1,13 @@
-import colors from "tailwindcss/colors";
+const colors = require("tailwindcss/colors");
 
-export default {
+module.exports = {
   content: [
     // app content
-    `src/**/*.{js,ts,jsx,tsx}`,
-    `pages/**/*.{js,ts,jsx,tsx}`,
-    `app/**/*.{js,ts,jsx,tsx}`,
+    `../../apps/*/src/**/*.{tsx}`,
+    `../../apps/*/pages/**/*.{tsx}`,
+    `../../apps/*/app/**/*.{tsx}`,
     // include packages if not transpiling
-    "../../packages/**/*.{js,ts,jsx,tsx}",
+    "../../packages/*/src/**/*.{tsx}",
   ],
   theme: {
     extend: {
