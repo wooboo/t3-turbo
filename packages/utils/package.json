@@ -1,5 +1,5 @@
 {
-  "name": "@the-platform/logger",
+  "name": "@the-platform/utils",
   "version": "0.0.0",
   "private": true,
   "main": "./dist/index.js",
@@ -19,9 +19,13 @@
     "preset": "jest-presets/jest/node"
   },
   "devDependencies": {
+    "@types/jest": "29.2.0",
+    "@types/node": "18.11.7",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "*",
-    "jest-presets": "*",
-    "tsconfig": "*"
+    "eslint-config-custom": "workspace:*",
+    "jest": "29.2.2",
+    "jest-presets": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.8.4"
   }
 }
