@@ -14,7 +14,6 @@ importers:
 
   apps/app:
     specifiers:
-      '@babel/core': ^7.19.6
       '@headlessui/react': 1.7.3
       '@heroicons/react': 2.0.12
       '@tanstack/react-query': ^4.10.0
@@ -51,13 +50,12 @@ importers:
       '@trpc/react-query': 10.0.0-rc.0_kv5kvek3wo2lmbs7gydz3ad7uu
       '@trpc/server': 10.0.0-rc.0
       classnames: 2.3.2
-      next: 13.0.0_qtpcxnaaarbm4ws7ughq6oxfve
+      next: 13.0.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       superjson: 1.9.1
       zod: 3.19.1
     devDependencies:
-      '@babel/core': 7.19.6
       '@the-platform/data': link:../../packages/data
       '@types/node': 18.11.7
       '@types/react': 18.0.24
@@ -1112,7 +1110,7 @@ packages:
       '@trpc/client': 10.0.0-rc.0_@trpc+server@10.0.0-rc.0
       '@trpc/react-query': 10.0.0-rc.0_kv5kvek3wo2lmbs7gydz3ad7uu
       '@trpc/server': 10.0.0-rc.0
-      next: 13.0.0_qtpcxnaaarbm4ws7ughq6oxfve
+      next: 13.0.0_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-ssr-prepass: 1.5.0_react@18.2.0
@@ -3939,7 +3937,7 @@ packages:
       escalade: 3.1.1
     dev: true
 
-  /next/13.0.0_qtpcxnaaarbm4ws7ughq6oxfve:
+  /next/13.0.0_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-puH1WGM6rGeFOoFdXXYfUxN9Sgi4LMytCV5HkQJvVUOhHfC1DoVqOfvzaEteyp6P04IW+gbtK2Q9pInVSrltPA==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -3963,7 +3961,7 @@ packages:
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-jsx: 5.1.0_otspjrsspon4ofp37rshhlhp2y
+      styled-jsx: 5.1.0_react@18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 13.0.0
@@ -4620,7 +4618,7 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  /styled-jsx/5.1.0_otspjrsspon4ofp37rshhlhp2y:
+  /styled-jsx/5.1.0_react@18.2.0:
     resolution: {integrity: sha512-/iHaRJt9U7T+5tp6TRelLnqBqiaIT0HsO0+vgyj8hK2KUk7aejFqRrumqPUlAqDwAj8IbS/1hk3IhBAAK/FCUQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -4633,7 +4631,6 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      '@babel/core': 7.19.6
       client-only: 0.0.1
       react: 18.2.0
     dev: false
