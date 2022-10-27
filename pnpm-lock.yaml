@@ -36,6 +36,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0
       superjson: 1.9.1
+      tailwind-config: workspace:*
       tsconfig: workspace:*
       typescript: ^4.8.4
       zod: ^3.18.0
@@ -64,6 +65,7 @@ importers:
       eslint-config-custom: link:../../dev/eslint-config-custom
       next-transpile-modules: 9.1.0
       postcss: 8.4.18
+      tailwind-config: link:../../dev/tailwind-config
       tsconfig: link:../../dev/tsconfig
       typescript: 4.8.4
 
@@ -100,7 +102,7 @@ importers:
       postcss: ^8.4.18
       tailwindcss: ^3.2.1
     devDependencies:
-      autoprefixer: 10.4.12_postcss@8.4.18
+      autoprefixer: 10.4.13_postcss@8.4.18
       postcss: 8.4.18
       tailwindcss: 3.2.1_postcss@8.4.18
 
@@ -1457,8 +1459,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer/10.4.12_postcss@8.4.18:
-    resolution: {integrity: sha512-WrCGV9/b97Pa+jtwf5UGaRjgQIg7OK3D06GnoYoZNcG1Xb8Gt3EfuKjlhh9i/VtT16g6PYjZ69jdJ2g8FxSC4Q==}
+  /autoprefixer/10.4.13_postcss@8.4.18:
+    resolution: {integrity: sha512-49vKpMqcZYsJjwotvt4+h/BCjJVnhGwcLpDt5xkcaOG3eLrG/HUYLagrihYsQ+qrIBgIzX1Rw7a6L8I/ZA1Atg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:

@@ -2,4 +2,5 @@ const withTM = require("next-transpile-modules")(["@the-platform/ui", "@the-plat
 
 module.exports = withTM({
   reactStrictMode: true,
+  // experimental:{appDir: true}
 });
