@@ -1,14 +1,16 @@
 {
-  "name": "@the-platform/app2",
+  "name": "@the-platform/app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3000",
+    "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@prisma/client": "^4.5.0",
     "@tanstack/react-query": "^4.10.0",
     "@the-platform/ui": "workspace:*",
     "@the-platform/utils": "workspace:*",
@@ -27,15 +29,17 @@
   },
   "devDependencies": {
     "@the-platform/data": "workspace:*",
-    "@types/node": "^18.11.7",
+    "@types/node": "18.11.7",
     "@types/react": "18.0.24",
-    "@types/react-dom": "18.0.8",    
+    "@types/react-dom": "18.0.8",
     "eslint-config-custom": "workspace:*",
     "eslint": "8.26.0",
-    "next-transpile-modules": "9.1.0",
     "postcss": "^8.4.18",
     "tailwindcss": "3.2.1",
-    "autoprefixer": "10.4.13",
+    "autoprefixer": "^10.4.13",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "prisma": "^4.5.0",
     "tsconfig": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
