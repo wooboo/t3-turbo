@@ -1,13 +1,21 @@
 const colors = require("tailwindcss/colors");
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    // app content
-    `../../apps/*/src/**/*.{tsx}`,
-    `../../apps/*/pages/**/*.{tsx}`,
-    `../../apps/*/app/**/*.{tsx}`,
-    // include packages if not transpiling
-    "../../packages/*/src/**/*.{tsx}",
+
+  content: {
+    relative: true,
+    files: [
+      // app content
+      "./src/**/*.{js,ts,jsx,tsx}",
+      `../../apps/*/src/**/*.tsx`,
+      // include packages if not transpiling
+      "../../packages/*/src/**/*.tsx",
+    ],
+  },
+  safelist: [
+    {
+      pattern: /./
+    },
   ],
   theme: {
     extend: {

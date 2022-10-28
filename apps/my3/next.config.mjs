@@ -26,5 +26,4 @@ export default defineNextConfig({
     locales: ["en"],
     defaultLocale: "en",
   },
-  experimental: { appDir: true }
 });

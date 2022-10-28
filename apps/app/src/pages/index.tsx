@@ -1,9 +1,10 @@
 import Head from "next/head";
 import { CounterButton } from "@the-platform/ui";
 import { trpc } from "../utils/trpc";
+import "../styles/globals.css";
 
 export default function Home() {
-  // const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
+  const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
@@ -23,7 +24,7 @@ export default function Home() {
           <CounterButton />
         </div>
         <div className="flex w-full items-center justify-center pt-6 text-2xl text-blue-500">
-          {/* {hello.data ? <p>{hello.data.greeting}</p> : <p>Loading..</p>} */}
+          {hello.data ? <p>{hello.data.greeting}</p> : <p>Loading..</p>}
         </div>
       </main>
     </div>
