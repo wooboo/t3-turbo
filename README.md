@@ -1,4 +1,4 @@
-# Turborepo starter
+# Turborepo starter with t3 app
 
 This is an official pnpm starter turborepo.
 
@@ -29,7 +29,7 @@ This turborepo has some additional tools already setup for you:
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd t3-turbo
 pnpm run build
 ```
 
@@ -38,7 +38,7 @@ pnpm run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
+cd t3-turbo
 pnpm run dev
 ```
 
@@ -49,7 +49,7 @@ Turborepo can use a technique known as [Remote Caching](https://turborepo.org/do
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
+cd t3-turbo
 pnpm dlx turbo login
 ```
 
