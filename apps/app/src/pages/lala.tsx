@@ -21,11 +21,7 @@ const userNavigation = [
   { name: 'Settings', href: '#' },
   { name: 'Sign out', href: '#' },
 ]
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout() {
   return (
     <>
       <div className="min-h-full">
@@ -175,8 +171,6 @@ export default function RootLayout({
             </>
           )}
         </Disclosure>
-
-        {children}
       </div>
     </>
   )

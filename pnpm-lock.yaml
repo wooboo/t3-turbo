@@ -18,9 +18,9 @@ importers:
       '@heroicons/react': 2.0.12
       '@prisma/client': ^4.5.0
       '@tanstack/react-query': ^4.10.0
-      '@the-platform/data': workspace:*
-      '@the-platform/ui': workspace:*
-      '@the-platform/utils': workspace:*
+      '@t3-turbo/data': workspace:*
+      '@t3-turbo/ui': workspace:*
+      '@t3-turbo/utils': workspace:*
       '@trpc/client': 10.0.0-rc.0
       '@trpc/next': 10.0.0-rc.0
       '@trpc/react-query': 10.0.0-rc.0
@@ -53,8 +53,8 @@ importers:
       '@heroicons/react': 2.0.12_react@18.2.0
       '@prisma/client': 4.5.0_prisma@4.5.0
       '@tanstack/react-query': 4.13.0_biqbaboplfbrettd7655fr4n2y
-      '@the-platform/ui': link:../../packages/ui
-      '@the-platform/utils': link:../../packages/utils
+      '@t3-turbo/ui': link:../../packages/ui
+      '@t3-turbo/utils': link:../../packages/utils
       '@trpc/client': 10.0.0-rc.0_@trpc+server@10.0.0-rc.0
       '@trpc/next': 10.0.0-rc.0_bkzxbfxe4z4splquqpeo7ucl5u
       '@trpc/react-query': 10.0.0-rc.0_kv5kvek3wo2lmbs7gydz3ad7uu
@@ -66,7 +66,7 @@ importers:
       superjson: 1.9.1
       zod: 3.19.1
     devDependencies:
-      '@the-platform/data': link:../../packages/data
+      '@t3-turbo/data': link:../../packages/data
       '@types/node': 18.11.7
       '@types/react': 18.0.24
       '@types/react-dom': 18.0.8

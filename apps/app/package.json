@@ -1,5 +1,5 @@
 {
-  "name": "@the-platform/app",
+  "name": "@t3-turbo/app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,8 +12,8 @@
   "dependencies": {
     "@prisma/client": "^4.5.0",
     "@tanstack/react-query": "^4.10.0",
-    "@the-platform/ui": "workspace:*",
-    "@the-platform/utils": "workspace:*",
+    "@t3-turbo/ui": "workspace:*",
+    "@t3-turbo/utils": "workspace:*",
     "@trpc/client": "10.0.0-rc.0",
     "@trpc/next": "10.0.0-rc.0",
     "@trpc/react-query": "10.0.0-rc.0",
@@ -28,7 +28,7 @@
     "zod": "^3.18.0"
   },
   "devDependencies": {
-    "@the-platform/data": "workspace:*",
+    "@t3-turbo/data": "workspace:*",
     "@types/node": "18.11.7",
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",

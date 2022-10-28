@@ -1,1 +1,1 @@
-module.exports = require("@the-platform/eslint-config-custom");
+module.exports = require("@t3-turbo/eslint-config-custom");

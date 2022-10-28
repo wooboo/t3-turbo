@@ -1,5 +1,5 @@
 {
-  "name": "@the-platform/data",
+  "name": "@t3-turbo/data",
   "version": "1.0.0",
   "license": "MIT",
   "main": "./dist/index.js",
